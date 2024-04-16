@@ -1,0 +1,229 @@
+/* Pour les téléphones (moins de 600 pixels de large) */
+@media only screen and (max-width: 600px) {
+
+    * {
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+    
+        }
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        body {
+            display: flex;
+            font-size: 14px;
+            background-image: url(./assets/télécharger.jpeg);
+        }
+    
+        header {
+            background-color: black;
+            position: absolute;
+            /* height: %; */
+            width: 100%;
+            /* padding-inline: 2%; */
+            padding: auto;
+            /* border-bottom: 2px #C9AD0A solid; */
+        }
+    
+        header ul {
+            display: flex;
+            margin-inline-end: 2%;
+            list-style: none;
+            
+    
+    
+        }
+    
+        header li {
+            text-align: center;
+            margin-inline: 10px;
+            border: 2px white solid;
+            border-radius: 20pc;
+            /* width: 25%; */
+            color: white;
+            font-size: 10px;
+            padding-inline: 10px;
+    
+    
+        }
+    
+        #index_div {
+            /* border-right: 2px #C9AD0A solid; */
+            background-color: black;
+            color: white;
+            width: 50%;
+            height: 50vh;
+            margin-top: 30%;
+            margin-left: -10%;
+            padding: 10%;
+            padding-inline: 10%;
+            border: 0.5px #C9AD0A solid;
+    
+        }
+}
+
+/* Pour les tablettes (entre 600 et 992 pixels de large) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    * {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body {
+        display: flex;
+        font-size: 18px;
+        background-image: url(./assets/télécharger.jpeg);
+    }
+
+    header {
+        background-color: black;
+        position: absolute;
+        /* height: %; */
+        width: 100%;
+        /* padding-inline: 2%; */
+        padding: auto;
+        /* border-bottom: 2px #C9AD0A solid; */
+    }
+
+    header ul {
+        display: flex;
+        margin-inline-end: 2%;
+        list-style: none;
+        float: left;
+
+
+    }
+
+    header li {
+        text-align: center;
+        margin-inline: 10px;
+        border: 2px white solid;
+        border-radius: 20pc;
+        /* width: 25%; */
+        color: white;
+        font-size: 16px;
+        padding-inline: 20px;
+
+
+    }
+         #index_div {
+             /* border-right: 2px #C9AD0A solid; */
+             background-color: black;
+             color: white;
+             width: 50%;
+             height: 100vh;
+             padding-top: 30%;
+             padding-inline: 5%;
+    
+         }
+
+    /* header li a {
+            margin-inline: 20%;
+
+        } */
+}
+
+/* Pour les ordinateurs (plus de 992 pixels de large) */
+@media only screen and (min-width: 992px) {
+
+
+    * {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body {
+        display: flex;
+        font-size: 18px;
+        background-image: url(./assets/télécharger.jpeg);
+    }
+
+    header {
+        background-color: black;
+        position: fixed;
+        /* height: %; */
+        width: 100%;
+        /* padding-inline: 2%; */
+        padding: auto;
+        /* border-bottom: 2px #C9AD0A solid; */
+    }
+
+    header ul {
+        display: flex;
+        margin-inline-end: 2%;
+        list-style: none;
+
+    }
+
+    header li {
+        text-align: center;
+        margin-inline: 5px;
+        border: 2px white solid;
+        border-radius: 20pc;
+        width: 10%;
+        color: white;
+    }
+
+    #index_div {
+        /* border-right: 2px #C9AD0A solid; */
+        background-color: black;
+        color: white;
+        width: 50%;
+        height: 100vh;
+        padding-top: 4%;
+        padding-inline: 5%;
+
+    }
+
+
+
+    /* main {
+        padding: 20%;
+        width: 100%;
+    } */
+
+    main h1 {
+        font-weight: bold;
+        font-size: 2.5pc;
+    }
+
+
+    #description {
+        background-color: black;
+
+        font-size: large;
+        text-align: center;
+        color: white;
+        width: 80%;
+        padding: 5%;
+        height: 25%;
+        margin: 5%;
+        border-radius: 50px;
+        position: relative;
+    }
+
+
+
+    #design_description {
+        font-size: 3pc;
+        position: absolute;
+        bottom: 0;
+        right: 2pc;
+    }
+}

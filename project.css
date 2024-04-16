@@ -1,0 +1,304 @@
+/* Pour les téléphones (moins de 600 pixels de large) */
+@media only screen and (max-width: 600px) {
+
+    * {
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+    
+        }
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    
+        body {
+            display: flex;
+            font-size: 14px;
+            background-image: url(./assets/télécharger.jpeg);
+        }
+    
+        header {
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            padding: auto;
+        }
+    
+        header ul {
+            display: flex;
+            margin-inline-end: 2%;
+            list-style: none;
+    
+    
+    
+        }
+    
+        header li {
+            text-align: center;
+            margin-inline: 10px;
+            border: 2px white solid;
+            border-radius: 20pc;
+            color: white;
+            font-size: 10px;
+            padding-inline: 10px;
+    
+    
+        }
+         main {
+                      padding: 9%;
+                      width: 100%;
+                      height: 100vh;
+        
+                      text-align: center;
+                     
+         }
+        
+                  #projetsLetter h3 {
+                      font-weight: bold;
+                      font-size: 2.5pc;
+                  }
+        
+        
+                  #projetsLetter {
+                      color: #C9AD0A;
+                  }
+        
+        
+                  #projetsBottomLine {
+                      border-bottom: 2px #C9AD0A solid;
+                      width: 10%;
+                      text-align: center;
+                      margin-bottom: 4%;
+                      margin-inline: 45%;
+                  }
+        
+                  
+        
+        
+                  .projetsItem {
+                      background-color: white;
+                      border-radius: 20px;
+                      margin-bottom: 25%;
+                      height: 10pc;
+                      text-align: center;
+                  }
+        
+                  .projetsItem a button {
+                      margin-top: 25%;
+                      color: black;
+                      border: none;
+                      background-color: white;
+                      font-size: 16px;
+                  }
+}
+
+/* Pour les tablettes (entre 600 et 992 pixels de large) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+    * {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body {
+        display: flex;
+        font-size: 18px;
+        background-color: #1D1C1C;
+    }
+
+    header {
+        background-color: black;
+        position: absolute;
+        
+        width: 100%;
+        padding: auto;
+    }
+
+    header ul {
+        display: flex;
+        margin-inline-end: 2%;
+        list-style: none;
+        float: left;
+
+
+    }
+
+    header li {
+        text-align: center;
+        margin-inline: 10px;
+        border: 2px white solid;
+        border-radius: 20pc;
+        /* width: 25%; */
+        color: white;
+        font-size: 16px;
+        padding-inline: 20px;
+
+
+    }
+
+    main {
+        padding: 9%;
+        width: 100%;
+        height: 100vh;
+
+        text-align: center;
+    }
+
+    #projetsLetter h3 {
+        font-weight: bold;
+        font-size: 2.5pc;
+    }
+
+
+    #projetsLetter {
+        color: #C9AD0A;
+    }
+
+
+    #projetsBottomLine {
+        border-bottom: 2px #C9AD0A solid;
+        width: 10%;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-inline: 45%;
+    }
+
+    #projetsAllItems {
+        display: grid;
+
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 40% 40% 40%;
+        justify-content: space-between;
+
+    }
+
+
+    .projetsItem {
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 35%;
+        height: 10pc;
+        /* margin: 10%; */
+        /* padding: 5%; */
+        text-align: center;
+    }
+
+    .projetsItem a button {
+        margin-top: 30%;
+        color: black;
+        border: none;
+        background-color: white;
+        font-size: 1pc;
+    }
+}
+
+/* Pour les ordinateurs (plus de 992 pixels de large) */
+@media only screen and (min-width: 992px) {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    body {
+        display: flex;
+        font-size: 18px;
+        background-color: #1D1C1C;
+        /* background-image: url(./assets/télécharger.jpeg); */
+    }
+
+    header {
+        background-color: black;
+        position: fixed;
+        /* height: %; */
+        width: 100%;
+        /* padding-inline: 2%; */
+        padding: auto;
+    }
+
+    header ul {
+        display: flex;
+        margin-inline-end: 2%;
+        list-style: none;
+
+    }
+
+    header li {
+        text-align: center;
+        margin-inline: 5px;
+        border: 2px white solid;
+        border-radius: 20pc;
+        width: 10%;
+        color: white;
+    }
+
+
+
+
+    main {
+        padding: 9%;
+        width: 100%;
+        height: 100vh;
+        background-color: #1D1C1C;
+        text-align: center;
+    }
+
+    #projetsLetter h3 {
+        font-weight: bold;
+        font-size: 2.5pc;
+    }
+
+
+    #projetsLetter {
+        color: #C9AD0A;
+    }
+
+
+    #projetsBottomLine {
+        border-bottom: 2px #C9AD0A solid;
+        width: 10%;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-inline: 45%;
+    }
+
+    #projetsAllItems {
+        display: grid;
+        /* align-content: space-between; */
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 40% 40% 40%;
+        justify-content: space-between;
+
+    }
+
+
+    .projetsItem {
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 20%;
+        height: 10pc;
+        /* margin: 10%; */
+        /* padding: 5%; */
+        text-align: center;
+    }
+
+    .projetsItem a button {
+        margin-top: 30%;
+        color: black;
+        border: none;
+        background-color: white;
+        font-size: 1pc;
+    }
+}
